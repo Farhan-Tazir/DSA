@@ -8,7 +8,7 @@ int sum(int n){
 	}
 	else{
 		int s = 0;
-		s +=sum(n-1);
+		s +=sum(n-1)/2;
 		return sum;
 	}
 	
