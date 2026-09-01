@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int sum(int n){
-	
-	if(n==0|| n==1){
-		return s;
+int solve(int n){
+	int p;
+	int sum;
+	if(p<=n){
+		return solve = sum(n+1);
 	}
 	else{
-		int s = 0;
-		s +=sum(n-1)/2;
-		return sum;
+		
+		return 0;
 	}
 	
 		
@@ -21,6 +21,6 @@ int main(){
 	cout<<"Enter a number :";
 	cin>>n;
 	
-	cout<<"your sum of the number till '0' is "<<sum(n);
+	cout<<"your sum of the number till '0' is "<<solve(n);
 
 }
