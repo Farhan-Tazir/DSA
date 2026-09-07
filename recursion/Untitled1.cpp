@@ -5,6 +5,7 @@ int solve(int n){
 	int p;
 	int sum;
 	if(p<=n){
+
 		return solve = sum(n+1);
 	}
 	else{
